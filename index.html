@@ -1,0 +1,50 @@
+<!--
+Aviso em inglês//English notice.
+This entire project was developed based on the florinpop project, all rights reserved. 
+This project does not aim at any profitable gain, it is only used as a means of practice 
+and exercise of knowledge. All social networks of the original creator will be in the description of read.me.
+
+Aviso em português//Portuguese warning.
+Todo este projeto foi desenvolvido baseado no projeto de florinpop, todos os direitos reservados. 
+Este projeto não tem como intuito nenhum ganho lucrativo, sendo apenas usado como meio de prática 
+e exercício de conhecimentos. Todas as redes sociais do criador original estarão na descrição do read.me.
+
+florinpop all rights reserved.
+-->
+
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Recipes App</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="mobile-container">
+            <header>
+                <input type="text" id="search-term" />
+                <button id="search"><i class="fas fa-search"></i></button>
+            </header>
+            <div class="fav-container">
+                <h3>Favorite Recipes</h3>
+                <ul class="fav-meals" id="fav-meals"></ul>
+            </div>
+            <div class="meals" id="meals"></div>
+        </div>
+
+        <div class="popup-container hidden" id="meal-popup">
+            <div class="popup">
+                <button id="close-popup" class="close-popup">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="meal-info" id="meal-info"></div>
+            </div>
+        </div>
+    </body>
+</html>
